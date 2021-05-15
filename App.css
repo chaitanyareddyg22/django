@@ -1,0 +1,48 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+  padding: 5px;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.layout{
+  display: grid;
+  background-color:#282c34;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 2mm;
+
+}
+.orange{
+  color: orange;
+}
+.red{
+  color: red;
+}
+.rate-container{
+  margin-top: 10pt;
+  border-top: 2px solid white;
+}
+.rate-container .fa-star{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.layout .fa-trash{
+  font-size: 0.9rem;
+  margin-left: 10pt;
+  cursor: pointer;
+
+}
+
+.layout .fa-edit{
+  font-size: 0.9rem;
+  margin-left: 10pt;
+  cursor: pointer;
+}
